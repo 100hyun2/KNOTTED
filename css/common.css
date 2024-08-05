@@ -1,0 +1,66 @@
+@import url("https://meyerweb.com/eric/tools/css/reset/reset.css");
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css");
+:root {
+  /* Project */
+  --gradient: linear-gradient(#4c6dd0 0%, #04befe 100%);
+  --gradient_re: linear-gradient(#04befe 0%, #4c6dd0 91%);
+  --color_white: #ffffff;
+  --color_bianca: #fdfaf7;
+  --color_mine_shaft_20: #3c3c3c;
+  --color_silver_tree: #5cb784;
+  --color_dove_gray: #656565;
+  --color_mauvelous: #f193b7;
+  --color_azalea: #f8c9df;
+  --color_black: #000000;
+  --color_vis_vis: #ffeea4;
+  --color_beauty_bush: #f0bcbf;
+  --color_powder_blue: #b1d6e4;
+  --color_putty: #eac88f;
+  --color_mauvelous: #f193bd;
+  --color_kournikova: #ffe06e;
+  --color_light_orchid: #eabbd3;
+  --color_silver_tree: #6ebd8f;
+  --color_light_orchid: #e3aec3;
+  --color_careys_pink: #d2a4ba;
+  --color_mine_shaft: #3c3c3c;
+  --color_mine_shaft: #212121;
+  --color_carnation_pink: #ffa2cb;
+  --color_gallery: #ebebeb;
+  --color_swiss_coffee: #e3dada;
+  --color_pastel_pink: #ffc8e1;
+  --color_dove_gray: #707070;
+  --color_dove_gray: #646464;
+  --color_white_60: #ffffff;
+  --color_spindle: #bee1f0;
+  --color_half_baked: #8abad3;
+  --color_emerald: #50be82;
+  --color_aqua_forest: #5da279;
+  --color_vis_vis: #fff0a0;
+  --color_blossom: #dab0c3;
+  --color_putty: #ebc891;
+  --color__dust: #656564;
+  --color_dust: #717170;
+  --color_emerald: #64d296;
+  --color_storm_dust: #70706f;
+  --color_blossom: #d7aabe;
+  --color_azalea: #f7c6dd;
+  --color_powder_blue: #b4dce6;
+  --color_opal: #9ebec3;
+  --color_vis_vis: #ffec9f;
+  --color_silver_chalice: #a5a5a5;
+  --color_linear_carousel_pink_carousel_pink: linear-gradient(
+    to bottom,
+    #f9e0f7 0%,
+    #f9e0f3 100%
+  );
+  --col: 13.8rem;
+  --g: 1.0rem;
+  --gu: calc(var(--g) * 2); /* 2.0rem */
+  --row: 2.0rem;
+  --unit: calc(var(--col) + var(--gu));
+  --layout: calc(var(--unit) * 12 - var(--gu));
+}
+
+li {
+  list-style: none;
+}
